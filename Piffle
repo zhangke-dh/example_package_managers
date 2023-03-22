@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+Django = "==3.2.10"
+numpy = ">=1.21,<1.22"
+flask = "~=2.1"
+your_package = {version="*", index="pypi"}
+mypackage = {git = "https://github.com/psf/requests.git", ref = "v2.27.1"}
+
+# 假设您在项目的根目录下有一个名为 my_local_package 的文件夹
+# my_local_package = {path = "./my_local_package", editable = true}
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.8"
