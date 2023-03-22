@@ -9,45 +9,38 @@
     <version>1.0.0</version>
     
     <properties>
-        <my.groupId>com.example</my.groupId>
-        <my.artifactId>my-dependency</my.artifactId>
-        <my.version>1.0.0</my.version>
+        <my.groupId>com.google.guava</my.groupId>
+        <my.artifactId>guava</my.artifactId>
+        <my.version>30.1.1-jre</my.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>my-dependency</artifactId>
-            <version>1.0.0</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>my-excluded-dependency</artifactId>
-            <version>2.0.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.example</groupId>
-                    <artifactId>excluded-dependency</artifactId>
-                </exclusion>
-            </exclusions>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.13.0</version>
         </dependency>
         <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>my-runtime-dependency</artifactId>
-            <version>1.0.0</version>
-            <scope>runtime</scope>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>30.1.1-jre</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>my-war-dependency</artifactId>
-            <version>1.0.0</version>
-            <type>war</type>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
         </dependency>
         <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>my-versioned-dependency</artifactId>
-            <version>[1.0.0,2.0.0)</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.14</version>
         </dependency>
         <dependency>
             <groupId>${my.groupId}</groupId>
