@@ -11,5 +11,16 @@
     "my-private-library": "npm-registry-url/my-private-library", // 安装MyPrivateLibrary的私有NPM仓库
     "my-github-library": "github:my-github-user/my-github-library#dev", // 安装MyGitHubLibrary的特定分支
     "my-npm-library": "github:my-github-user/my-npm-library#v1.0.0" // 安装MyNPMLibrary的特定标签
+  },
+  "memo": {
+    "lodash": "* 安装最新版本的Lodash"
+    "moment": "2.29.1", // 安装指定版本的Moment.js"
+    "express": "^4.17.1 安装大于等于指定版本但小于下一个主要版本的Express"
+    "react": "~17.0.2 安装大于等于指定版本但小于下一个次要版本的React"
+    "my-library": "git+https://github.com/my-github-user/my-library.git 安装MyLibrary的Git仓库地址"
+    "my-local-library": "file:../my-local-library 安装MyLocalLibrary的本地路径"
+    "my-private-library": "npm-registry-url/my-private-library 安装MyPrivateLibrary的私有NPM仓库"
+    "my-github-library": "github:my-github-user/my-github-library#dev 安装MyGitHubLibrary的特定分支"
+    "my-npm-library": "github:my-github-user/my-npm-library#v1.0.0 安装MyNPMLibrary的特定标签"
   }
 }
